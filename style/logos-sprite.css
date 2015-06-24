@@ -1,0 +1,75 @@
+.armor { width: 32px; height: 32px; background-position: 0 0; }
+
+.arrow-down { width: 40px; height: 26px; background-position: -40px 0; }
+
+.arrow-left { width: 25px; height: 95px; background-position: -85px 0; }
+
+.arrow-left-double { width: 30px; height: 40px; background-position: -115px 0; }
+
+.arrow-left-double-g { width: 30px; height: 40px; background-position: -150px 0; }
+
+.arrow-right { width: 25px; height: 95px; background-position: -185px 0; }
+
+.arrow-right-double { width: 30px; height: 40px; background-position: -215px 0; }
+
+.arrow-right-double-g { width: 30px; height: 40px; background-position: -250px 0; }
+
+.bank { width: 162px; height: 157px; background-position: -285px 0; }
+
+.bank-g { width: 95px; height: 76px; background-position: -455px 0; }
+
+.bank-w { width: 95px; height: 76px; background-position: -555px 0; }
+
+.comer { width: 172px; height: 127px; background-position: -655px 0; }
+
+.comer-g { width: 80px; height: 60px; background-position: -835px 0; }
+
+.comer-w { width: 80px; height: 60px; background-position: -920px 0; }
+
+.comment { width: 40px; height: 30px; background-position: -1005px 0; }
+
+.crane { width: 172px; height: 152px; background-position: -1050px 0; }
+
+.crane-g { width: 90px; height: 80px; background-position: -1230px 0; }
+
+.crane-w { width: 90px; height: 80px; background-position: -1325px 0; }
+
+.diagram { width: 36px; height: 24px; background-position: -1420px 0; }
+
+.doc { width: 32px; height: 42px; background-position: -1465px 0; }
+
+.factory { width: 172px; height: 162px; background-position: -1505px 0; }
+
+.factory-g { width: 75px; height: 70px; background-position: -1685px 0; }
+
+.factory-w { width: 75px; height: 70px; background-position: -1765px 0; }
+
+.gos { width: 182px; height: 152px; background-position: -1845px 0; }
+
+.gos-g { width: 90px; height: 75px; background-position: -2035px 0; }
+
+.gos-w { width: 90px; height: 75px; background-position: -2130px 0; }
+
+.house { width: 172px; height: 140px; background-position: -2225px 0; }
+
+.house-g { width: 95px; height: 76px; background-position: -2405px 0; }
+
+.house-w { width: 95px; height: 76px; background-position: -2505px 0; }
+
+.medik { width: 172px; height: 132px; background-position: -2605px 0; }
+
+.medik-g { width: 92px; height: 70px; background-position: -2785px 0; }
+
+.medik-w { width: 92px; height: 70px; background-position: -2885px 0; }
+
+.monitor { width: 44px; height: 35px; background-position: -2985px 0; }
+
+.net { width: 50px; height: 36px; background-position: -3035px 0; }
+
+.search { width: 18px; height: 18px; background-position: -3090px 0; }
+
+.wheel { width: 34px; height: 34px; background-position: -3115px 0; }
+
+.armor, .arrow-down, .arrow-left, .arrow-left-double, .arrow-left-double-g, .arrow-right, .arrow-right-double, .arrow-right-double-g, .bank, .bank-g, .bank-w, .comer, .comer-g, .comer-w, .comment, .crane, .crane-g, .crane-w, .diagram, .doc, .factory, .factory-g, .factory-w, .gos, .gos-g, .gos-w, .house, .house-g, .house-w, .medik, .medik-g, .medik-w, .monitor, .net, .search, .wheel { background-size: 3155px 170px; background-repeat: no-repeat; background-image: url("../i/svg/logo-sprite.png"); }
+
+.svg .armor, .svg .arrow-down, .svg .arrow-left, .svg .arrow-left-double, .svg .arrow-left-double-g, .svg .arrow-right, .svg .arrow-right-double, .svg .arrow-right-double-g, .svg .bank, .svg .bank-g, .svg .bank-w, .svg .comer, .svg .comer-g, .svg .comer-w, .svg .comment, .svg .crane, .svg .crane-g, .svg .crane-w, .svg .diagram, .svg .doc, .svg .factory, .svg .factory-g, .svg .factory-w, .svg .gos, .svg .gos-g, .svg .gos-w, .svg .house, .svg .house-g, .svg .house-w, .svg .medik, .svg .medik-g, .svg .medik-w, .svg .monitor, .svg .net, .svg .search, .svg .wheel { background-image: url("../i/svg/logo-sprite.svg"); }
