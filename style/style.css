@@ -568,7 +568,7 @@ header { height: 170px; }
 header.active { color: #fff; }
 header.active .nav-menu a { color: #fff; }
 
-.header-inner { top: -200px; -webkit-transition: all linear 0.3s; -o-transition: all linear 0.3s; transition: all linear 0.3s; }
+.header-inner { top: -100px; -webkit-transition: all linear 0.4s; -o-transition: all linear 0.4s; transition: all linear 0.4s; }
 
 .header-inner.affix { position: fixed !important; height: 200px; z-index: 100; top: 0; left: 0; width: 100%; min-width: 1000px; background: rgba(35, 40, 56, 0.75); padding-bottom: 30px; color: #fff; }
 .header-inner.affix .nav-menu a { color: #fff; }
@@ -608,7 +608,7 @@ header.active .nav-menu a { color: #fff; }
 
 .logo-img { display: block; width: 205px; height: 140px; background: url("../i/logo.svg"); background-size: 205px 140px; }
 
-.m-header-page .logo-img, header.active .logo-img, header.affix .logo-img { background: url("../i/logo-w.svg"); background-size: 205px 140px; }
+.m-header-page .logo-img, header.active .logo-img, .header-inner.affix .logo-img { background: url("../i/logo-w.svg"); background-size: 205px 140px; }
 
 .list-menu-second { position: absolute; z-index: 35; top: 0; left: 0; width: 100%; min-width: 1000px; padding: 0; margin: 0; text-align: center; text-transform: uppercase; background: #232838; }
 .list-menu-second .l-menu-link { color: #fff; display: block; padding: 20px 0; font: 300 28px/35px "Roboto", sans-serif; }
