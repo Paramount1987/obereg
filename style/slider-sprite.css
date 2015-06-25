@@ -1,0 +1,11 @@
+.arrow-left { width: 25px; height: 95px; background-position: 0 0; }
+
+.arrow-left-h { width: 23px; height: 94px; background-position: -30px 0; }
+
+.arrow-right { width: 25px; height: 95px; background-position: -60px 0; }
+
+.arrow-right-h { width: 23px; height: 94px; background-position: -90px 0; }
+
+.arrow-left, .arrow-left-h, .arrow-right, .arrow-right-h { background-size: 120px 100px; background-repeat: no-repeat; background-image: url("../i/svg/slider-sprite.png"); }
+
+.svg .arrow-left, .svg .arrow-left-h, .svg .arrow-right, .svg .arrow-right-h { background-image: url("../i/svg/slider-sprite.svg"); }
