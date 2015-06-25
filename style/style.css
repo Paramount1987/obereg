@@ -485,17 +485,15 @@ input[type="search"] { -webkit-appearance: none; }
 
 .slick-dots { position: absolute; z-index: 11; bottom: 80px; display: block; width: 100%; padding: 0; list-style: none; text-align: center; }
 
-.slick-dots li { position: relative; display: inline-block; width: 20px; height: 20px; margin: 0 10px; padding: 0; cursor: pointer; }
+.slick-dots li { position: relative; display: inline-block; width: 40px; height: 20px; margin: 0; padding: 0; text-align: center; cursor: pointer; }
 
-.slick-dots li.slick-active { margin: 0 10px 0 0; }
-
-.slick-dots li button { position: relative; font-size: 0; line-height: 0; display: block; width: 20px; height: 20px; padding: 5px; cursor: pointer; color: transparent; border: 0; outline: none; background: transparent; }
+.slick-dots li button { position: relative; font-size: 0; line-height: 0; display: inline-block; width: 25px; height: 20px; padding: 5px; cursor: pointer; color: transparent; border: 0; outline: none; background: transparent; }
 
 .slick-dots li button:hover, .slick-dots li button:focus { outline: none; }
 
-.slick-dots li button:before { content: ""; position: absolute; top: 0; left: 0; display: block; width: 9px; height: 9px; background: #fff; border-radius: 100%; }
+.slick-dots li button:before { content: ""; position: absolute; top: 0; left: 50%; margin-left: -4px; display: block; width: 9px; height: 9px; background: #fff; border-radius: 100%; }
 
-.slick-dots li.slick-active button:before { top: -5px; width: 19px; height: 19px; border-radius: 19px; }
+.slick-dots li.slick-active button:before { top: -5px; margin-left: -10px; width: 19px; height: 19px; border-radius: 19px; }
 
 .slider-sync { margin: 20px 0 40px 0; }
 .slider-sync .img-responsive { height: 100%; width: 100%; }
@@ -570,11 +568,11 @@ header.active .nav-menu a { color: #fff; }
 .navbar-form { display: inline-block; margin-right: 20px; }
 .navbar-form .form-group { position: relative; top: 2px; display: inline-block; margin-bottom: 0; }
 
-.b-search { position: absolute; top: -8px; right: -14px; display: inline-block; width: 1px; overflow: hidden; padding: 0; height: 35px; -webkit-transition: width linear 0.3s; -o-transition: width linear 0.3s; transition: width linear 0.3s; }
+.b-search { position: absolute; top: -8px; left: 30px; display: inline-block; width: 1px; overflow: hidden; padding: 0; height: 35px; -webkit-transition: width linear 0.3s; -o-transition: width linear 0.3s; transition: width linear 0.3s; }
 
-.b-search.active { width: 248px; }
+.b-search.active { width: 165px; }
 
-.form-control-search { height: 35px; width: 248px; outline: 0; line-height: 35px; background: #fff; padding: 2px 35px 2px 15px; }
+.form-control-search { height: 35px; width: 165px; outline: 0; line-height: 35px; background: #fff; padding: 2px 10px 2px 10px; }
 
 .navbar-phone { display: inline-block; font: 500 17px/22px "Roboto", sans-serif; }
 
@@ -582,9 +580,9 @@ header.active .nav-menu a { color: #fff; }
 
 .navbar-left { position: absolute; z-index: 45; top: 0; left: 0; width: 50px; text-align: center; font: 500 17px/22px "Roboto", sans-serif; }
 
-.btn-menu { border: 0; outline: 0; width: 42px; height: 39px; padding-top: 3px; }
+.btn-menu { cursor: pointer; border: 0; outline: 0; width: 42px; height: 39px; padding-top: 8px; }
 
-.btn-menu i { display: block; margin-bottom: 3px; position: relative; width: 28px; height: 3px; background: #fff; -webkit-transition: all linear 0.2s; -o-transition: all linear 0.2s; transition: all linear 0.2s; }
+.btn-menu i { display: block; margin-bottom: 3px; margin-left: auto; margin-right: auto; position: relative; width: 28px; height: 3px; background: #fff; -webkit-transition: all linear 0.2s; -o-transition: all linear 0.2s; transition: all linear 0.2s; }
 
 .btn-menu i + i { margin-top: 7px; }
 
@@ -716,9 +714,9 @@ body.contact-p #footer { height: 628px; }
 .l-content-link { position: relative; color: #27ABDD; font: 500 20px/25px "Roboto", sans-serif; }
 .l-content-link:hover, .l-content-link:focus { text-decoration: none; color: #7EC248; }
 
-.l-content-link:after { content: ""; position: relative; display: inline-block; top: 9px; margin-left: 10px; width: 22px; height: 25px; background-size: 3155px 98px; background-repeat: no-repeat; background-image: url("../i/svg/logo-sprite.svg"); background-position: -120px -2px; }
+.l-content-link:after { content: ""; font-family: "fontello"; position: relative; display: inline-block; top: 2px; font-weight: normal; margin-left: 10px; font-size: 25px; width: 22px; height: 25px; }
 
-.l-content-link:hover:after, .l-content-link:focus:after { background-position: -140px -2px; }
+.l-content-link:hover:after, .l-content-link:focus:after { color: #7EC248; }
 
 .l-content-img { text-align: center; }
 
