@@ -1,7 +1,12 @@
 $(document).ready(function(){
 
 
-
+$(".btn-menu").click(function(){
+  $(this).toggleClass("active");
+  if(!$("header").hasClass("m-header-page")){
+    $("header").toggleClass("active");
+  }
+});
 ////////////////////////////////////
 
 $(".list-nav-collapse").hover(function(){

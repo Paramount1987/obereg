@@ -562,7 +562,10 @@ input[type="search"] { -webkit-appearance: none; }
 .m-header-page { position: absolute; z-index: 20; top: 0; left: 0; width: 100%; color: #fff; }
 .m-header-page .nav-menu a { color: #fff; }
 
-.navbar-right { position: absolute; right: 0; top: 12px; }
+header.active { color: #fff; }
+header.active .nav-menu a { color: #fff; }
+
+.navbar-right { position: absolute; z-index: 45; right: 0; top: 12px; }
 
 .navbar-form { display: inline-block; margin-right: 20px; }
 .navbar-form .form-group { position: relative; top: 2px; display: inline-block; margin-bottom: 0; }
@@ -577,21 +580,38 @@ input[type="search"] { -webkit-appearance: none; }
 
 .btn-search { position: relative; z-index: 10; border: 0; outline: 0; background: transparent; background: url("../i/svg/logo-sprite.svg") no-repeat; background-size: 3155px 170px; width: 18px; height: 18px; text-indent: -9999px; background-position: -3090px 0; }
 
-.navbar-left { position: absolute; top: 0; left: 0; width: 50px; text-align: center; font: 500 17px/22px "Roboto", sans-serif; }
+.navbar-left { position: absolute; z-index: 45; top: 0; left: 0; width: 50px; text-align: center; font: 500 17px/22px "Roboto", sans-serif; }
 
 .btn-menu { border: 0; outline: 0; width: 42px; height: 39px; padding-top: 3px; }
 
-.btn-menu i { display: block; margin-bottom: 3px; width: 29px; height: 3px; background: #fff; }
+.btn-menu i { display: block; margin-bottom: 3px; position: relative; width: 28px; height: 3px; background: #fff; -webkit-transition: all linear 0.2s; -o-transition: all linear 0.2s; transition: all linear 0.2s; }
 
 .btn-menu i + i { margin-top: 7px; }
 
-.nav-logo { position: absolute; top: -30px; left: 50%; margin-left: -95px; text-align: center; }
+.btn-menu.active .btn-l-2 { opacity: 0; filter: alpha(opacity=0); }
+
+.btn-menu.active .btn-l-1 { -webkit-transform: rotate(50deg); -ms-transform: rotate(50deg); -o-transform: rotate(50deg); transform: rotate(50deg); top: 10px; }
+
+.btn-menu.active .btn-l-3 { -webkit-transform: rotate(-50deg); -ms-transform: rotate(-50deg); -o-transform: rotate(-50deg); transform: rotate(-50deg); top: -10px; }
+
+.nav-logo { position: absolute; z-index: 45; top: -30px; left: 50%; margin-left: -95px; text-align: center; }
 
 .nav-slogan { font: 300 15px/15px "Roboto", sans-serif; margin: 4px; }
 
 .logo-img { display: block; width: 205px; height: 140px; background: url("../i/logo.svg"); background-size: 205px 140px; }
 
-.m-header-page .logo-img { background: url("../i/logo-w.svg"); background-size: 205px 140px; }
+.m-header-page .logo-img, header.active .logo-img { background: url("../i/logo-w.svg"); background-size: 205px 140px; }
+
+.list-menu-second { position: absolute; z-index: 35; top: 0; left: 0; width: 100%; min-width: 1000px; padding: 0; margin: 0; text-align: center; text-transform: uppercase; background: #232838; }
+.list-menu-second .l-menu-link { color: #fff; display: block; padding: 40px 0; font: 300 28px/35px "Roboto", sans-serif; }
+.list-menu-second .l-menu-link:hover, .list-menu-second .l-menu-link:focus { text-decoration: none; }
+
+.list-menu-second li { border-bottom: 1px solid #fff; }
+.list-menu-second li:hover { background-image: -webkit-linear-gradient(top, #7EC248 0%, #27ABDD 100%); background-image: -o-linear-gradient(top, #7EC248 0%, #27ABDD 100%); background-image: linear-gradient(to bottom, #7EC248 0%, #27ABDD 100%); background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF7EC248', endColorstr='#FF27ABDD', GradientType=0); }
+
+.list-menu-second li:first-child { margin-top: 200px; }
+
+.list-menu-second li:last-child { border-bottom: 0; margin-bottom: 50px; }
 
 .list-nav { background: #25AAE1; color: #fff; text-transform: uppercase; min-width: 1000px; font: 500 22px/28px "Roboto", sans-serif; }
 
@@ -774,7 +794,7 @@ body.contact-p #footer { height: 628px; }
 
 .i-arrow-right-double:hover:after { background-position: -250px 0; }
 
-.address-contact { position: relative; text-align: center; padding: 50px 0; color: #fff; background: url("../i/it.jpg") no-repeat; background-position: center center; font-size: 23px; }
+.address-contact { position: relative; min-width: 1000px; text-align: center; padding: 50px 0; color: #fff; background: url("../i/it.jpg") no-repeat; background-position: center center; font-size: 23px; }
 .address-contact:after { content: ""; position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.8; filter: alpha(opacity=80); }
 .address-contact .t-big { font-size: 30px; }
 .address-contact .link-mail { color: #fff; }
